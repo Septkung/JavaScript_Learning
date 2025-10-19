@@ -1,0 +1,18 @@
+/* .sept{
+    color: rgb(255, 255, 255);
+    background-color: black;
+} */
+.lightMode{
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 10px;
+}
+.darkMode{
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 10px;
+}

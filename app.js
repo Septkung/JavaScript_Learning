@@ -201,22 +201,58 @@ colors.push('grey') //เพิ่มสมาชิกเข้าไป
 //     console.log('colors : ',item)
 // }
 
-// array to string
-console.log(typeof(colors.toString()))
-console.log(colors.join(' ')) //เปลี่ยน , เป็นอย่างอื่น
-console.log(colors.pop())//เอาตัวสุดท้ายออก
+// // array to string
+// console.log(typeof(colors.toString()))
+// console.log(colors.join(' ')) //เปลี่ยน , เป็นอย่างอื่น
+// console.log(colors.pop())//เอาตัวสุดท้ายออก
 
-//comcatinating array
-console.log(colors.concat(number))
+// //comcatinating array
+// console.log(colors.concat(number))
 
-// sorting array
-let points = [20,45,-45,45,12,56,78,1,54,4,-5]
-console.log(points)
-points.sort(function(a,b){
-    return a-b
-})
-console.log(points) //น้อยไปมาก
-points.sort(function(a,b){
-    return b-a
-})
-console.log(points) //มากไปน้อย
+// // sorting array
+// let points = [20,45,-45,45,12,56,78,1,54,4,-5]
+// console.log(points)
+// points.sort(function(a,b){
+//     return a-b
+// })
+// console.log(points) //น้อยไปมาก
+// points.sort(function(a,b){
+//     return b-a
+// })
+// console.log(points) //มากไปน้อย
+
+// JavaScript Object
+//let name = {propertyName:value}
+// let product = {
+//     name : 'mouse',
+//     price : 1500,
+//     color : 'black',
+//     category : 'computer',
+//     size : 'M',
+//     displayProduct:function(){ // Object Method(function ของ object)
+//         return 'name : '+this.name +' \nprice : '+this.price;
+//     },
+//     discount:function(x){
+//         return this.price-x;
+//     }
+// }
+// // การเข้าถึง value แบบ object
+// console.log('product : ',product.name);
+// console.log('category : ',product['category'])
+// //แบบ array
+// console.log('colors : ',colors[0])
+
+// console.log(product.displayProduct(),'\ndiscounted price : ',product.discount(150));
+
+// confirm dialog
+// function deletedata(){
+//     let result = confirm("are you sure to delete your data") //จะให้ค่ากลับมาเป็๋น boolean
+//     if(result){
+//         console.log('confirm')
+//     }else{
+//         console.log('ok')
+//     }
+// }
+
+//HTML DOM(Document Object Model)
+//เข้าถึง เปลี่ยนคุณสมบัติของ element ,ควบคุมเปลี่ยนรูปแบบ css ,respone กับหน้าเว็ป
