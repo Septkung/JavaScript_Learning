@@ -37,45 +37,45 @@
 
 // DOM Node
 // const menu = document.getElementById('menu');
-// const item = document.getElementById('item-3');
-// const itemB = document.getElementById('item-2');
+const item = document.getElementById('item-3');
+const itemB = document.getElementById('item-2');
 
-// const newItem = document.createElement('li');
-// newItem.innerText = 'X'
+const newItem = document.createElement('li');
+newItem.innerText = 'X'
 
-// let count = 1
-// function addItem(){
-//     const item  = document.createElement('li'); //create li
-//     item.innerText = 'item '+(count++);
-//     menu.appendChild(item);
-// }
+let count = 1
+function addItem(){
+    const item  = document.createElement('li'); //create li
+    item.innerText = 'item '+(count++);
+    menu.appendChild(item);
+}
 
-// function deleteItem(){
-//     menu.removeChild(item);
-// }
+function deleteItem(){
+    menu.removeChild(item);
+}
 
-// function replaceItem(){
-//     menu.replaceChild(newItem,itemB);
-//     //replaceChild(newItem,oldItem);
-// }
+function replaceItem(){
+    menu.replaceChild(newItem,itemB);
+    //replaceChild(newItem,oldItem);
+}
 
 // DOM CSS
-// const box = document.getElementById('box');
+const box = document.getElementById('box');
 
-// function addDarkMode(){
-//     box.classList.add('darkMode');
-// }
-// function removeDarkMode(){
-//     box.classList.remove('darkMode');
-// }
-// function switchMode(){
-//     box.classList.toggle('darkMode');
-//     if(box.classList.contains('darkMode')){ //return boolean check toggle
-//         box.style.color='yellow';
-//     }else{
-//         box.style.color='red';
-//     }
-// }
+function addDarkMode(){
+    box.classList.add('darkMode');
+}
+function removeDarkMode(){
+    box.classList.remove('darkMode');
+}
+function switchMode(){
+    box.classList.toggle('darkMode');
+    if(box.classList.contains('darkMode')){ //return boolean check toggle
+        box.style.color='yellow';
+    }else{
+        box.style.color='red';
+    }
+}
 // DOM Event
 // function welcome(){
 //     alert('wellcome to our website');
